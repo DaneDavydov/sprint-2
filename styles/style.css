@@ -1,3 +1,14 @@
+@font-face {
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+    font-family: 'SourceSansPro';
+}
+
+@font-face {
+    src: url(../fonts/SourceSansPro-Bold.ttf);
+    font-family: 'SourceSansPro';
+    font-weight: bold;
+}
+
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -20,7 +31,7 @@
     min-width: 1100px;
     max-width: 1600px;
     margin: 0 auto;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'SourceSansPro', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .link {
